@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("/src/assets/img/noaa-kcvlb727mn8-unsplash.jpg");
+  background-size: cover;
+  color: rgba(213, 238, 232, 0.52);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  color: rgba(0, 255, 255, 0.357);
+}
+
+#searchInput {
+  background-color: rgba(77, 135, 186, 0.342);
+  border: none;
+  box-shadow: 1px 1px 0.5px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+  color: #333;
+}
+
+#searchInput::placeholder {
+  color: #333;
+}
+
+#searchInput:hover {
+  background-color: rgba(41, 143, 233, 0.7);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-find {
+  background-color: rgba(77, 135, 186, 0.342);
+  border: none;
+  box-shadow: 1px 1px 0.5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-find:hover {
+  background-color: rgba(41, 143, 233, 0.7);
+}
+
+#content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.user-interface {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
